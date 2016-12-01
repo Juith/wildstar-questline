@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Addon Name="Questline" APIVersion="14" Version="1.2" Author="Jeuith" Description="Enhance quest storytelling.">
+	<!-- Gemini ftw -->
+	<Script Name="libs\GeminiLogging\GeminiLogging.lua" />
+	<Script Name="libs\GeminiHook\GeminiHook-1.0.lua" />
+	<Script Name="libs\GeminiAddon\GeminiAddon.lua" />
+
+	<!-- Questlines files -->
+	<Form Name="Questline.xml"/>
+	<Script Name="Questline.lua"/> 
+
+	<!-- Carbino stuff -->
+	<ReplaceAddon Name="Dialog"/>
+</Addon>
